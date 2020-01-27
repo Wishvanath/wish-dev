@@ -15,8 +15,8 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: cover;
+  background-color: #000000;
   position: relative;
 
   @include tablet {
