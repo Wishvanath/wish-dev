@@ -18,7 +18,7 @@ const BodyServices = () => {
                   <p>
                    I have worked on website Designing for the software companies and Educational Organisation, Visit my work collections
                   </p>
-                  <Link to= "/design/collection">
+                  <Link to= "/design">
                     <button className="btn btn_workcollections">Creative Design</button>
                   </Link>
                 </div>

@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react'
 import $ from 'jquery';
 import {Route, Switch} from 'react-router-dom'
 import WishDevHome from './pages/wish-dev-home/wish-dev-home';
+import Layout from './pages/creative-design/cr-layout';
 export default class App extends Component {
   constructor(){
     super();
@@ -90,6 +91,7 @@ export default class App extends Component {
       <Fragment>
           <Switch>
             <Route exact path="/" component ={WishDevHome} />
+            <Route exact path ="/design" component ={Layout} />
           </Switch>
       </Fragment>
     )
