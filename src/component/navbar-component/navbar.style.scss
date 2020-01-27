@@ -1,0 +1,120 @@
+
+@import '../../scss/variables';
+@import '../../scss/mixins';
+
+.brand_logo{
+    width: 35%;
+}
+
+.navigation{
+    padding: 40px 100px;
+    transition: .3s ease;
+    &.nav-bg {
+    //   background-color: $primary-color;
+      background-color: #212325;
+      padding: 10px 100px;
+      // padding: 0px 100px;
+      @include desktop {
+        padding: 15px 20px;
+      }
+    }
+    @include desktop {
+      padding: 20px;
+      background: $primary-color;
+    }
+  }
+  
+  .navbar{
+    .nav-item{
+      .nav-link{
+        font-family: $tertiary-font;
+        text-transform: uppercase;
+        padding: 15px;
+      }
+      &.active{
+        font-weight: bold;
+       
+      }
+    }
+    @include tablet{
+      .navbar-brand{
+        width: 70%;
+      }
+    }
+  }
+  
+  .navbar-dark .navbar-nav .nav-link{
+    color: $white;
+  }
+
+
+
+  // @include tablet{
+  //   body{
+  //     background: #f27243;
+  //   } 
+    
+  // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+/* -------------------------------
+7.MEDIA QUERY CSS
+---------------------------------- */
+/* FOR EXTERA SMALL DEVICE */
+// @media(max-width: 767px) {
+   
+ 
+  
+// }
+
+
+
+
+
+/* FOR SMALL DEVICE */
+
+// @media (min-width: 768px) and (max-width: 991px) {
+//    body{
+//       background: #478710;
+//   } 
+ 
+// }
+
+
+
+
+
+/* FOR MEDIUM SCREEN */
+
+// @media (min-width: 992px) and (max-width: 1280px) {
+//   body{
+//       background: #22c1c1;
+//   } 
+
+// }
+
+
+/* FOR LARGE DEVICE */

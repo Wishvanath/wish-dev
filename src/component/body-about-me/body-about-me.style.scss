@@ -1,0 +1,177 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+.about_me_wrapper{
+    .about_me_inner{
+        .app_title{
+            font-size: 18px;
+            text-transform: uppercase;
+            color: #787878;
+        }
+      .title_line{
+          border: 1px solid #FE744F;
+          width: 80px;
+          margin-left: 20px;
+          display: inline-block;
+          text-align: center;
+      }
+      .btn_download{
+          background: transparent;
+          border: 1px solid #FE744F;
+          font-weight: normal;
+          margin: auto;
+          padding: 10px 20px 10px 20px;
+          &:hover{
+              background: #FE744F;
+              color:black;
+          }
+      }
+    }
+
+
+    .about_me_img_inner{
+        .about_me_bg_layer{
+            z-index: 10;
+            top: 0;
+            left: 0;
+            img{
+                width: 80%;
+            }
+        }
+    }
+
+    .pf_descp_wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        @include tablet{
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .problem_solver{
+            background-color: #F3F3F3;
+            padding: 20px 40px;
+            text-align: center;
+            border-radius: 5px;
+            @include tablet{
+                padding: 10px 15px;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            @include desktop-lg{
+                padding: 10px 15px;
+            }
+            i{
+                font-size: 30px;
+            }
+        }
+        .design_skill{
+            background-color: #F3F3F3;
+            padding: 20px 40px;
+            text-align: center;
+            border-radius: 5px;
+            @include tablet{
+                padding: 10px 15px;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            @include desktop-lg{
+                padding: 10px 15px;
+            }
+            i{
+                font-size: 30px;
+            }
+        }
+        .team_work{
+            background-color: #F3F3F3;
+            padding: 20px 40px;
+            text-align: center;
+            border-radius: 5px;
+            @include tablet{
+                padding: 10px 15px;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            @include desktop-lg{
+                padding: 10px 15px;
+            }
+            i{
+                font-size: 30px;
+            }
+            
+        }
+    }
+}
+
+
+.skills{
+    flex-wrap: wrap;
+    p{
+        padding: 5px 20px 5px 20px;
+        border: 1px solid #eee;
+        font-size: 12px;
+        color: black;
+        border-radius: 3px;
+        margin-right: 5px;
+        background: rgb(245,245,245);
+        &:hover{
+            background: #eee;
+            cursor: pointer;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+// media query
+@include tablet{
+    // mobile device
+}
+
+@include desktop{
+    //tablet device
+}
+
+
+@include desktop-lg{
+   //laptop device
+}
+
+// @include mobile_device{
+//     body{
+//         background: rgb(14, 172, 74);
+//     }
+//     .pf_descp_wrapper{
+//         flex-direction: column;
+//     }
+// }
+
+// @include tablet_device{
+//     body{
+//         background: rgb(44, 47, 184);
+//     }
+//     .pf_descp_wrapper{
+//         flex-direction: column;
+//     }
+// }
+
+
+// @include laptop_device{
+//     body{
+//         background: rgb(176, 33, 189);
+//     }
+//     .problem_solver{
+//         padding: 10px 20px;
+//         background: black;
+//     }
+// }
+
+

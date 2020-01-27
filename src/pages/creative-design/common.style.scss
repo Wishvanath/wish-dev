@@ -1,0 +1,243 @@
+
+
+
+/* **************************
+    ----2.SIDE BAR ------
+*************************** */
+
+
+
+
+
+/* ---------------------------
+    2.1 full width side bar
+------------------------------ */
+.sidebar-expanded ._collapse_site_logo {
+    display: none;
+  }
+  #sidebar-container {
+    min-height: 100vh;
+    height: 100vh;
+    background-color: #333;
+    padding: 0;
+    position: fixed;
+    top: 0;
+  }
+  .sidebar-expanded {
+    width: 230px;
+  }
+  #sidebar-container .list-group a {
+    height: 50px;
+    color: #E0E0E0;
+  }
+  #sidebar-container .list-group .sidebar-submenu a {
+    height: 45px;
+    color: #afafaf!important;
+    padding-left: 30px;
+  }
+  
+  .dropdown-toggle:after { content: none }
+  
+  .sidebar-submenu {
+    font-size: 0.9rem;
+  }
+  .sidebar-separator-title {
+    background-color: #333;
+    height: 35px;
+  }
+  
+  .sidebar-separator {
+    background-color: #333;
+    height: 25px;
+  }
+  .logo-separator {
+    background-color: #333;
+    height: 60px;
+  }
+  /* Opened submenu icon */
+  #sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
+    content: " \f0da";
+    font-family: FontAwesome;
+    display: inline;
+    text-align: right;
+    padding-left: 10px;
+  }
+  ._pf_footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    left: 0;
+    width: 230px;
+  }
+  .sidebar-collapsed ._pf_footer {
+    width: 60px;
+  }
+  ._site_footer_section {
+    padding: 15px;
+    color: white;
+    background: #484848;
+  }
+  .footer_img {
+    width: 18%;
+    border-radius: 100%;
+  }
+  .fa_footer_ico {
+    color: #05b995;
+    margin-left: 10px;
+  }
+  .list_group_inner {
+    margin-bottom: 60%;
+  }
+  .fas_side_nav{
+    font-size: 15px;
+  }
+
+  .cd_side_nav_menu{
+      background: transparent;
+      border-radius: initial;
+      border: none;
+      &:hover{
+        background: rgb(179, 92, 67) !important;
+        border-radius: initial;
+      }
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* ---------------------------
+      2.2collapsed side bar
+  ------------------------------ */
+  
+  .sidebar-collapsed ._site_logo {
+    display: none;
+  }
+  .sidebar-collapsed .footer_img {
+    width: 100%;
+  }
+  ._collapse_site_logo {
+    width: 30px;
+    height: 30px;
+  }
+  .sidebar-collapsed {
+    width: 60px;
+    height: 100vh;
+  }
+  /* Closed submenu icon */
+  #sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
+    content: " \f0d7";
+    font-family: FontAwesome;
+    display: inline;
+    text-align: right;
+    padding-left: 10px;
+  }
+  ._sidebar_whole_collapsed {
+    margin-left: -230px;
+  }
+  ._site_footer_section_collpase {
+    display: none;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* **************************
+    ----3.HEADER NAVBAR ------
+  *************************** */
+  
+  ._site_nav_wrapper {
+    // position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  ._site_inner_nav_wrapper {
+    margin-left: 230px;
+    border-bottom: 1px solid #e1e4e8;
+  }
+  ._collapse_site_inner_nav_wrapper {
+    margin-left: 60px;
+  }
+  ._site_logo_section {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .mini_title{
+        margin-left: 10px;
+        color: #FE744F;
+    }
+  }
+  ._site_logo {
+    width: 20%;
+  }
+  ._wsite_inner_nav_wrapper {
+    margin-left: 0px;
+  }
+  ._fas_nav_icon_right {
+    transform: rotate(180deg);
+  }
+  .design_colletion_navbar_toggler{
+      color: #333;
+      border: 1px solid #333;
+      padding: px;
+      i{
+          margin-top: 5px;
+      }
+  }
+  
+  .search_box{
+      border: none;
+      border: 0.5px solid #e1e4e8;
+      padding: 10px 20px 10px 20px;
+  }
+  
+  
+  
+  
+  /* **************************
+      ----4.BODY CONTENT ------
+  *************************** */
+  
+  ._body_content_wrapper {
+    margin-left: 230px;
+    width: auto;
+    display: flex;
+  }
+  ._collapse_body_conten_wrapper {
+    margin-left: 60px;
+    width: auto;
+    display: flex;
+  }
+  ._wcollapse_body_conten_wrapper {
+    margin-left: 0px;
+    width: 100%;
+    display: flex;
+  }
+  
+  
+  #body_inner_wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

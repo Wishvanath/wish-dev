@@ -1,0 +1,239 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+
+
+
+.hero-area {
+  height: 100vh;
+  z-index: 30;
+  padding: 40px 100px;
+  text-align: center;
+  background-image: url('/images/bg_hero_layer2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: cover;
+  position: relative;
+
+  @include tablet {
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  h2 {
+    color: #c1c1c1;
+  }
+  h3 {
+    color: #c1c1c1;
+  }
+
+  .self_descp {
+    margin: auto;
+    margin-top: 250px;
+  }
+
+  .social_media_wrapper {
+    z-index: 100;
+    margin: auto;
+
+    .social_media_inner {
+      display: flex;
+      flex-direction: row;
+      .social {
+        margin: auto;
+        background: #4b4b4b;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        text-align: center;
+        animation-name: social_icon_animation;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        cursor: pointer;
+
+        .text_primary {
+          color: #FE744F;
+
+          &:hover {
+            cursor: pointer;
+            color: rgb(233, 89, 49);
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .sun_layer {
+//   z-index: 30;
+//   position: absolute;
+//   top: 30%;
+//   left: 55%;
+//   right: 0;
+
+//   img {
+//     width: 10%;
+//     animation: sun_animation;
+//     animation-duration: 5s;
+//     animation-timing-function: linear;
+//     animation-delay: 0s;
+//     animation-iteration-count: infinite;
+//   }
+// }
+
+// .mountain_layer {
+//   z-index: 20;
+//   position: absolute;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+
+//   img {
+//     width: 100%;
+//   }
+// }
+
+
+@keyframes social_icon_animation {
+  0% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+
+  20% {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+  }
+
+  40% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+
+  60% {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+  }
+
+  80% {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+
+}
+
+
+
+// @keyframes sun_animation {
+//   0% {
+//     opacity: 1.0;
+//   }
+
+//   10% {
+//     opacity: 0.8;
+//   }
+
+//   20% {
+//     opacity: 0.6;
+//   }
+
+//   30% {
+//     opacity: 0.4;
+//   }
+
+//   40% {
+//     opacity: 0.2;
+//   }
+
+//   50% {
+//     opacity: 0.4;
+//   }
+
+//   60% {
+//     opacity: 0.6;
+//   }
+
+//   70% {
+//     opacity: 0.8;
+//   }
+
+//   80% {
+//     opacity: 0.6;
+//   }
+
+//   90% {
+//     opacity: 0.4;
+//   }
+
+//   100% {
+//     opacity: 1.0;
+//   }
+
+// }
